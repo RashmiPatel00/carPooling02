@@ -12,13 +12,13 @@
       line-height: 1.6;
       margin: 0;
       padding: 0;
-      background-color: #f9f9f9;
+      background-color: #FFFDD0;
       color: #333;
     }
 
     /* About Section */
     .about-section {
-      background-color: #fff;
+      background-color: #FAF3E0;
       text-align: center;
       padding: 50px 20px;
       margin-bottom: 20px;
@@ -36,6 +36,65 @@
       font-size: 1rem;
       line-height: 1.8;
     }
+
+/* why chose carpool */
+
+    .carpool-section {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      padding: 50px;
+      background-color: #f9f9f9;
+      gap: 20px;
+    }
+
+    .carpool-section img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .carpool-text {
+      max-width: 600px;
+      text-align: left;
+    }
+
+    .carpool-text h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .carpool-text ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .carpool-text ul li {
+      margin-bottom: 15px;
+      font-size: 1.1rem;
+      line-height: 1.6;
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+    }
+
+    .carpool-text ul li:before {
+      content: "✦";
+      font-size: 1.2rem;
+      color: #fbc02d; /* Gold color */
+      flex-shrink: 0;
+    }
+
+
+
+
+
+
+
+
 
     /* Team Section */
     .team-section {
@@ -107,6 +166,28 @@
     </p>
   </div>
 
+
+  <div class="carpool-section">
+    <img src="carpool.webp" alt="Carpool Image" style="max-width: 40%;">
+    <div class="carpool-text">
+      <h2>Why Choose Carpool System</h2>
+      <ul>
+        <li>
+          <strong>Save Money</strong> - <p>Carpooling significantly reduces fuel and parking costs, making it an affordable option for daily commutes.</p>
+        </li>
+        <li>
+          <strong>Reduce Traffic Stress</strong>-Carpooling helps decrease the number of cars on the road, leading to less congestion and shorter travel times.
+        </li>
+        <li>
+          <strong>Convenience and Comfort</strong> - Relax while someone else drives, or enjoy a more comfortable ride with fewer people than public transport.
+        </li>
+        <li>
+          <strong>Support Sustainability</strong> - choosing carpooling, you're supporting a more sustainable and responsible transportation model. 
+        </li>
+      </ul>
+    </div>
+  </div>
+
   <div class="team-section">
     <h2>Our Stellar Team</h2>
     <div class="team-cards">
@@ -140,5 +221,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
 
 
